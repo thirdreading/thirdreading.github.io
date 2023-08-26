@@ -1,12 +1,7 @@
+# Settings
+title: "Third Reading"
 remote_theme: jekyll-text-theme
 search_enabled: true
-
-# Settings
-text_skin: default
-highlight_theme: default
-url     : 
-baseurl : 
-title: "Third Reading"
 
 # LaTeX math equation support
 use_math: true
@@ -14,7 +9,3 @@ use_math: true
 # kramdown
 kramdown:
   math_engine: mathjax
-
-# Language & Time
-lang: "en"
-timezone: 
