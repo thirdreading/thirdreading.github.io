@@ -1,0 +1,10 @@
+title: "Third Reading"
+theme: jekyll-text-theme
+search_enabled: true
+
+# LaTeX math equation support
+use_math: true
+
+# kramdown
+kramdown:
+  math_engine: mathjax
