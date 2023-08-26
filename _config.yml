@@ -1,8 +1,7 @@
 # remote_theme: pmarsceill/just-the-docs
+title: Third Reading
+description: An exploration of ...
 theme: just-the-docs
-
-# Settings
-title: "Third Reading"
 search_enabled: true
 
 # Custom Settings
