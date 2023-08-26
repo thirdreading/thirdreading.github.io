@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Third reading
+title: Third Reading
 nav_order: 2
 has_children: true
 permalink: /thirdreading/src
