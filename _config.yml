@@ -3,6 +3,9 @@ title: "Third Reading"
 remote_theme: pmarsceill/just-the-docs
 search_enabled: true
 
+# Custom Settings
+color_scheme: supplementary
+
 # LaTeX math equation support
 use_math: true
 
