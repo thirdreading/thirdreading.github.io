@@ -1,6 +1,6 @@
 <br>
 
-[thirdreading.github.io](https://www.thirdreading.github.io)
+[thirdreading.github.io](https://thirdreading.github.io)
 
 <br>
 
