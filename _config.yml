@@ -1,6 +1,6 @@
 # Settings
 title: "Third Reading"
-remote_theme: jekyll-text-theme
+remote_theme: pmarsceill/just-the-docs
 search_enabled: true
 
 # LaTeX math equation support
