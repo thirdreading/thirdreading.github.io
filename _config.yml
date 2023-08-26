@@ -1,5 +1,5 @@
 title: "Third Reading"
-theme: jekyll-text-theme
+remote_theme: jekyll-text-theme
 search_enabled: true
 
 # LaTeX math equation support
