@@ -4,7 +4,13 @@
 
 <br>
 
-Exploring
+## Notes
+
+### Sphinx
+
+```bash
+sphinx-build -b html docs/source docs/build/html
+```
 
 <br>
 <br>
