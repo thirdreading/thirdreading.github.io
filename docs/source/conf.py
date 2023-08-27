@@ -28,6 +28,7 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configurat
 
 extensions = [
     'sphinx.ext.duration',
+    'sphinx.ext.githubpages',
     'revitron_sphinx_theme'
 ]
 templates_path = ['_templates']
