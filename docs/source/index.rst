@@ -6,10 +6,15 @@
 Welcome to Third Reading's documentation!
 =========================================
 
+**Third Reading** is a ...
+
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
+   :hidden:
 
+   introduction/introduction
 
 
 Indices and tables
@@ -18,3 +23,5 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
