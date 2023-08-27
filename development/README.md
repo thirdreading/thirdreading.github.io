@@ -66,7 +66,13 @@ color_scheme: supplementary
 
 to the Jekyll project's `_config.yml`.
 
+<br>
 
+Within `_config.yml` use the `remote_theme` property to refer to a theme of interest, e.g., 
+
+```yaml
+remote_theme: just-the-docs/just-the-docs
+```
 
 <br>
 <br>
