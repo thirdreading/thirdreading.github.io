@@ -30,6 +30,17 @@ There are [settings for different languages](https://www.sphinx-doc.org/en/maste
 * [customising](https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html#adding-custom-css-or-javascript-to-sphinx-documentation)
 
 <br>
+
+**Instructions**
+
+Populate _``... the master file [docs\source\index.rst](/docs/source/index.rst) and create supplementary documentation
+source files. Use the Makefile to build the docs, like so:_
+
+> make builder
+
+_where "builder" is one of the supported builders, e.g. html, latex or linkcheck.''_
+
+<br>
 <br>
 
 ### Jekyll
