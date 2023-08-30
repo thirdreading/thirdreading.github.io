@@ -1,7 +1,7 @@
 // Declarations
 var Highcharts;
 var seriesOptions = [];
-var uri = document.getElementById("deflator").getAttribute("url");
+var uri = "https://raw.githubusercontent.com/thirdreading/investments/develop/warehouse/deflator/series.json";
 
 
 // Generate curves
