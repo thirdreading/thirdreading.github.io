@@ -3,18 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Third Reading's documentation!
-=========================================
+Third Reading
+=============
 
-**Third Reading** is a ...
+.. container:: .large
+
+   Third Reading will be a real time, continuously updated, public services, economy, and industry analytics hub.  The core country is the United Kingdom, albeit modelling and/or analysis will sometimes focus on a mix of countries or geographies.  If the lack of ...
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents
-   :hidden:
+.. container:: .buttons
 
-   introduction/introduction
+   `Introduction <https://thirdreading.github.io>`_
+   `GitHub <https://www.github.com/greyhypotheses>`_
 
 
 Indices and tables
@@ -25,3 +25,16 @@ Indices and tables
 * :ref:`search`
 
 
+.. toctree::
+   :maxdepth: 2
+   :caption: About
+   :hidden:
+
+   about/introduction
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Expenditure
+   :hidden:
+
+   expenditure/fundamentals

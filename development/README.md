@@ -38,7 +38,10 @@ source files. Use the Makefile to build the docs, like so:_
 
 > make builder
 
-_where "builder" is one of the supported builders, e.g. html, latex or linkcheck.''_
+_where "builder" is one of the supported builders, e.g. html, latex or linkcheck.''_  Beware, in order to publish these pages via `GitHub Pages` $\rightarrow$
+
+* Add [.nojekyll](/.nojekyll) to the root directory; the [/docs/build/html/.nojekyll](/docs/build/html/.nojekyll) file - automatically created by extension `sphinx.ext.githubpages`, if included in [conf.py](/docs/source/conf.py) -  is insufficient.
+* Add an `index.html` file with redirections to the root directory.  The redirection is to the `index.html` built by Sphinx. 
 
 <br>
 <br>
