@@ -46,7 +46,13 @@ html_static_path = ['_static']
 
 html_css_files = []
 
-html_js_files = ['https://code.jquery.com/jquery-3.7.0.min.js']
+html_js_files = ['https://code.jquery.com/jquery-3.7.0.min.js',
+                 'https://code.highcharts.com/stock/highstock.js',
+                 'https://code.highcharts.com/stock/modules/data.js',
+                 'https://code.highcharts.com/stock/modules/exporting.js',
+                 'https://code.highcharts.com/stock/modules/export-data.js',
+                 'https://code.highcharts.com/stock/modules/accessibility.js',
+                 'js/expenditure/deflator.js']
 
 
 html_theme_options = {
