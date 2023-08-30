@@ -1,10 +1,10 @@
-Usage
-=====
+Introduction
+============
 
 .. _introduction:
 
-Introduction
-------------
+Focus
+-----
 
 The side bar outlines the modelling, analysis, and synthesis topics in focus.
 
