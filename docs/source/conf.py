@@ -41,7 +41,12 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-o
 '''
 
 html_theme = 'revitron_sphinx_theme'
+
 html_static_path = ['_static']
+
+html_css_files = []
+
+html_js_files = ['https://code.jquery.com/jquery-3.7.0.min.js']
 
 
 html_theme_options = {
