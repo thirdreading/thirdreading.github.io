@@ -27,7 +27,14 @@ Indices and tables
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
+   :caption: About
    :hidden:
 
    introduction/introduction
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Expenditure
+   :hidden:
+
+   expenditure/fundamentals
