@@ -30,7 +30,7 @@ Indices and tables
    :caption: About
    :hidden:
 
-   introduction/introduction
+   about/introduction
 
 .. toctree::
    :maxdepth: 2
