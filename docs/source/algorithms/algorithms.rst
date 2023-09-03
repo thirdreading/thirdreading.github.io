@@ -1,7 +1,7 @@
-Background
+Algorithms
 ==========
 
-.. _background:
+.. _algorithms:
 
 
 Machine Learning
@@ -17,7 +17,7 @@ A number of public service units in the United Kingdom use ...
   <br>
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Algorithms
    :hidden:
 
