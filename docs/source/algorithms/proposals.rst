@@ -1,0 +1,4 @@
+Proposals
+=========
+
+.. _proposals:
