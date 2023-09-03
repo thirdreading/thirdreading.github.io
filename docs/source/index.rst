@@ -34,7 +34,11 @@ Indices and tables
 
 .. toctree::
    :maxdepth: 2
-   :caption: Expenditure
+   :caption: Bulletins
    :hidden:
 
-   expenditure/fundamentals
+   expenditure/expenditure
+   algorithms/algorithms
+
+
+

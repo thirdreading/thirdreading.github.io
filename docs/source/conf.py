@@ -52,7 +52,9 @@ html_js_files = ['https://code.jquery.com/jquery-3.7.0.min.js',
                  'https://code.highcharts.com/stock/modules/exporting.js',
                  'https://code.highcharts.com/stock/modules/export-data.js',
                  'https://code.highcharts.com/stock/modules/accessibility.js',
-                 'js/expenditure/deflator.js']
+                 'https://code.highcharts.com/highcharts.js',
+                 'https://code.highcharts.com/modules/networkgraph.js',
+                 'js/expenditure/deflator.js', 'js/expenditure/aggregates.js', 'js/expenditure/disaggregates.js']
 
 
 html_theme_options = {
