@@ -37,8 +37,8 @@ Indices and tables
    :caption: Bulletins
    :hidden:
 
-   expenditure/fundamentals
-   algorithms/introduction
+   expenditure/expenditure
+   algorithms/algorithms
 
 
 
