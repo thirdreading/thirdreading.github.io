@@ -1,7 +1,7 @@
-Introduction
-============
+Background
+==========
 
-.. _introduction:
+.. _background:
 
 
 Machine Learning
