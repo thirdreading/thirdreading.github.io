@@ -1,7 +1,7 @@
-Fundamentals
-============
+Expenditure
+===========
 
-.. _fundamentals:
+.. _deflator:
 
 
 An Illustrative Tale
