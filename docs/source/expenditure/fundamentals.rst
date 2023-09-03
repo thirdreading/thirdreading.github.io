@@ -7,6 +7,13 @@ Fundamentals
 
 	<br>
 
+An Illustrative Tale
+--------------------
+
+Imagine this.  It is the first week day of March 2023 and you are visiting your new general practitioner (GP).  A key discussion relates to your weight.  For the past eight years the first week day of March has been ...
+
+
+
 Deflator
 --------
 
