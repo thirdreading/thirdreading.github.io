@@ -33,20 +33,12 @@ Indices and tables
    about/introduction
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Expenditure
+   :maxdepth: 2
+   :caption: Bulletins
    :hidden:
 
    expenditure/fundamentals
-   expenditure/classifications
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Algorithms
-   :hidden:
-
    algorithms/introduction
-   algorithms/proposals
-   algorithms/data
-   algorithms/classifying
-   algorithms/forecasting
+
+
+
