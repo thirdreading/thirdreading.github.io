@@ -1,10 +1,10 @@
 <br>
 
-## Notes
+# Notes
 
 <br>
 
-### Sphinx
+## Sphinx
 
 The compilation code is
 
@@ -31,7 +31,7 @@ There are [settings for different languages](https://www.sphinx-doc.org/en/maste
 
 <br>
 
-**Instructions**
+### Instructions
 
 Populate _``... the master file [docs\source\index.rst](/docs/source/index.rst) and create supplementary documentation
 source files. Use the Makefile to build the docs, like so:_
@@ -44,9 +44,46 @@ _where "builder" is one of the supported builders, e.g. html, latex or linkcheck
 * Add an `index.html` file with redirections to the root directory.  The redirection is to the `index.html` built by Sphinx. 
 
 <br>
+
+### `revitron` Theme Updates
+
+At present, late 2023, the `revitron` sphinx theme might not render web pages without the hack described herein.  The hack applies
+to the `default.html` file of site package `revitron_sphinx_theme`, which resides within the `\Lib\site-packages\` directory
+of a python virtual environment.  For example, in the case of a virtual environment named *transcribing*, the `default.html` file
+of `revitron_sphinx_theme` resides at
+
+> ~\anaconda3\envs\transcribing\Lib\site-packages\revitron_sphinx_theme\default.html
+
+Within `default.html` append
+
+```mermaid
+{# Build sphinx_version_info tuple from sphinx_version string in pure Jinja #}
+{%- set (_ver_major, _ver_minor) = (sphinx_version.split('.') | list)[:2] | map('int') -%}
+{%- set sphinx_version_info = (_ver_major, _ver_minor, -1) -%}
+```
+
+to the template variables settings area, which is at the beginning of the file.  Next, and finally, **replace** 
+
+```mermaid
+{# CSS #}
+<link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+<link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
+```
+
+**with**
+
+```mermaid
+{#- CSS #}
+{%- if sphinx_version_info < (4, 0) -%}
+<link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+<link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
+{%- endif %}
+```
+
+<br>
 <br>
 
-### Jekyll
+## Jekyll
 
 It might be possible to adjust/reset default colour & font declarations via a `.scss` within the `_sass` directory.  For example, let
 
