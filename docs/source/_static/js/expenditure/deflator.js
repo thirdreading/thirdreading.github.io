@@ -68,7 +68,7 @@ jQuery.getJSON(uri, function (calculations){
 
 		// Legend
     legend: {
-      enabled: true,
+      enabled: false,
       width: 600,
       x: 65,
       y: -95,
@@ -105,6 +105,8 @@ jQuery.getJSON(uri, function (calculations){
       title: {
         text: 'monetary units'
       },
+      maxPadding: 0.05,
+      gridLineWidth: 0.5,
       min: 0,
       resize: {
         enabled: true
