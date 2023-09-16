@@ -31,56 +31,14 @@ jQuery.getJSON(uri, function (calculations){
 
 
   // Draw a graph
-  Highcharts.stockChart('container0005', {
-
-		// https://api.highcharts.com/highstock/rangeSelector.buttons
-    rangeSelector: {
-	    buttonPosition: {
-          x: 0,
-          y: 0
-        },
-      buttons: [
-        {
-          type: 'ytd',
-          text: 'YTD',
-          title: 'View year to date'
-        }, {
-          type: 'year',
-          count: 5,
-          text: '5y',
-          title: 'View 5 years',
-          dataGrouping: {
-            units: [['year', [1]]]
-          }
-        }, {
-         type: 'year',
-         count: 10,
-         text: '10y',
-         title: 'View 10 years',
-         dataGrouping: {
-           units: [['year', [1]]]
-         }
-        }, {
-          type: 'all',
-          text: 'All',
-          title: 'View all'
-        }
-      ],
-      floating: false,
-      inputDateFormat: '%Y',
-      inputEnabled: true,
-      inputPosition: {
-        x: 0,
-        y: 0
-      },
-      selected: 5,  // The default range selection button: All -> 5
-      verticalAlign: 'top'
-    },
+  Highcharts.chart('container0005', {
 
 
 		// Chart
     chart: {
-      zoomType: 'x'
+      type: 'spline',
+      zoomType: 'xy',
+      marginTop: 65
     },
 
 
@@ -168,6 +126,12 @@ jQuery.getJSON(uri, function (calculations){
 
 		// The x-axis
     xAxis: {
+      type: 'datetime',
+      title: {
+          text: 'Year'
+      },
+      maxPadding: 0.05,
+      gridLineWidth: 1,
       plotLines: [{
         value: calculations.attribute[0].epoch,
         width: 1,
