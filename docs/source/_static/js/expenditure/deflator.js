@@ -38,7 +38,9 @@ jQuery.getJSON(uri, function (calculations){
     chart: {
       type: 'spline',
       zoomType: 'xy',
-      marginTop: 65
+      marginTop: 85,
+      height: 450,
+      width: 390
     },
 
 
@@ -68,21 +70,18 @@ jQuery.getJSON(uri, function (calculations){
 
 		// Legend
     legend: {
-      enabled: false,
-      width: 600,
-      x: 65,
-      y: -95,
-      align: 'middle'
+      enabled: false
     },
 
 
 		// Graph caption
     caption: {
       verticalAlign: "bottom",
+      floating: false,
       y: 25,
-      text: '<p>This series is a <b>rebased</b> United Kingdom Treasury\'s deflator series.  At present, the base ' +
+      text: '<p>This series is a rebased United Kingdom Treasury\'s deflator series.  At present, the base ' +
         'year of the treasury\'s series is the latest year of the series; the series is rebased such ' +
-        'that the base year is <b>' + calculations.attribute[0].year + '</b>. <br/><br/>' +
+        'that the base year is ' + calculations.attribute[0].year + '. <br/><br/>' +
         '[Source: <a href="https://www.gov.uk/government/collections/gdp-deflators-at-market-prices-and-money-gdp#full-publication-update-history" target="_blank">' +
         '<span style="text-decoration: underline;">The gross domestic product (GDP) deflators at market prices, and money GDP</span></a>]</p>'
     },
