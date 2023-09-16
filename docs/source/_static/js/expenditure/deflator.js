@@ -102,23 +102,16 @@ jQuery.getJSON(uri, function (calculations){
 
 		// The y-axis
     yAxis: {
-      labels: {
-        align: 'left',
-        x: 5
-      },
       title: {
-        text: 'monetary units',
-        align: 'middle',
-        x: 7
+        text: 'monetary units'
       },
       min: 0,
-      lineWidth: 2,
       resize: {
         enabled: true
       },
       plotLines: [{
         value: calculations.attribute[0].rebase,
-        width: 2,
+        width: 0.85,
         color: '#5b5b5b'
       }]
     },
@@ -131,10 +124,10 @@ jQuery.getJSON(uri, function (calculations){
           text: 'Year'
       },
       maxPadding: 0.05,
-      gridLineWidth: 1,
+      gridLineWidth: 0.5,
       plotLines: [{
         value: calculations.attribute[0].epoch,
-        width: 1,
+        width: 0.85,
         color: '#5b5b5b'
       }]
     },
@@ -162,7 +155,7 @@ jQuery.getJSON(uri, function (calculations){
         color: '#5b5b5b5',
         marker: {
           enabled: true,
-          radius: 3,
+          radius: 1,
           fillColor: '#5b5b5b'
         },
         dataGrouping: {
