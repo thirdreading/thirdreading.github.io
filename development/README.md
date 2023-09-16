@@ -56,7 +56,7 @@ of `revitron_sphinx_theme` resides at
 
 Within `default.html` append
 
-```mermaid
+```text
 {# Build sphinx_version_info tuple from sphinx_version string in pure Jinja #}
 {%- set (_ver_major, _ver_minor) = (sphinx_version.split('.') | list)[:2] | map('int') -%}
 {%- set sphinx_version_info = (_ver_major, _ver_minor, -1) -%}
@@ -64,7 +64,7 @@ Within `default.html` append
 
 to the template variables settings area, which is at the beginning of the file.  Next, and finally, **replace** 
 
-```mermaid
+```text
 {# CSS #}
 <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
 <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
@@ -72,7 +72,7 @@ to the template variables settings area, which is at the beginning of the file. 
 
 **with**
 
-```mermaid
+```text
 {#- CSS #}
 {%- if sphinx_version_info < (4, 0) -%}
 <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
