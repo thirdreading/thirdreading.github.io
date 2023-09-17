@@ -1,0 +1,15 @@
+/* Styling */
+
+.equation {
+    padding-left: 60px;
+}
+
+figure {
+    margin: 1em 40px;
+}
+
+figcaption {
+    font-size: 0.9em;
+    padding: 15px;
+    text-align: left;
+}

@@ -1,4 +1,0 @@
-Forecasting
-===========
-
-.. _forecasting:

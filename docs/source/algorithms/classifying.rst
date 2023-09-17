@@ -1,4 +1,0 @@
-Classifying
-===========
-
-.. _classifying:

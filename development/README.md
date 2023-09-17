@@ -1,52 +1,10 @@
 <br>
 
-## Notes
+# Notes
 
 <br>
 
-### Sphinx
-
-The compilation code is
-
-```shell
-  sphinx-build -b html docs/source/ docs/build/html
-```
-
-There are a few Sphinx [themes](https://sphinx-themes.org) types.  The `stanford` theme:
-
-* A [demo](https://sphinx-themes.org/sample-sites/sphinx-theme/) of the ``stanford`` theme.
-* Installing [`sphinx-theme`](https://sphinx-themes.org/sample-sites/sphinx-theme/#quickstart), the underlying library.
-    * [`pip install sphinx-theme`](https://pypi.org/project/sphinx-theme/)
-
-There are [settings for different languages](https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language).  Perhaps one of its most important aspects of Sphinx is
-[reStructuredText (reST)](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html), i.e.,  the plaintext markup language used by Sphinx.  References of import
-
-* [installing `sphinx`](https://www.sphinx-doc.org/en/master/usage/installation.html)
-* [getting started](https://www.sphinx-doc.org/en/master/tutorial/getting-started.html)
-* [raw data pass through](https://docutils.sourceforge.io/docs/ref/rst/directives.html#raw-data-pass-through)
-* [MathJax](https://docs.mathjax.org/en/latest/web/configuration.html#configuring-and-loading-in-one-script)
-* [book theme](https://sphinx-book-theme.readthedocs.io/en/stable/customize/sidebar-secondary.html)
-* [sphinx build](https://www.sphinx-doc.org/en/master/man/sphinx-build.html)
-* [customising](https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html#adding-custom-css-or-javascript-to-sphinx-documentation)
-
-<br>
-
-**Instructions**
-
-Populate _``... the master file [docs\source\index.rst](/docs/source/index.rst) and create supplementary documentation
-source files. Use the Makefile to build the docs, like so:_
-
-> make builder
-
-_where "builder" is one of the supported builders, e.g. html, latex or linkcheck.''_  Beware, in order to publish these pages via `GitHub Pages` $\rightarrow$
-
-* Add [.nojekyll](/.nojekyll) to the root directory; the [/docs/build/html/.nojekyll](/docs/build/html/.nojekyll) file - automatically created by extension `sphinx.ext.githubpages`, if included in [conf.py](/docs/source/conf.py) -  is insufficient.
-* Add an `index.html` file with redirections to the root directory.  The redirection is to the `index.html` built by Sphinx. 
-
-<br>
-<br>
-
-### Jekyll
+## Jekyll
 
 It might be possible to adjust/reset default colour & font declarations via a `.scss` within the `_sass` directory.  For example, let
 
