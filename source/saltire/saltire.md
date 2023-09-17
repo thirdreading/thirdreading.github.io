@@ -10,7 +10,7 @@ custom_css:
 
 # Introduction
 
-Structures, measures, <span class="tooltip">DAG<span class="tooltiptext">Directed Acyclic Graph</span></span> diagrams, graphs, analytics, etc., ideas vis-\`{a}-vis Scottish Government's open data.
+Structures, measures, <span class="tooltip">DAG<span class="tooltiptext">Directed Acyclic Graph</span></span> diagrams, graphs, analytics, etc., ideas vis-&agrave;-vis Scottish Government's open data.
 {: .fs-6 .fw-300 }
 
 <br>
