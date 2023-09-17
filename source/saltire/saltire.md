@@ -5,7 +5,7 @@ nav_order: 3
 has_children: true
 permalink: /source/saltire
 custom_css:
-  - tooltips
+- tooltips
 ---
 
 # Introduction
