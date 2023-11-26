@@ -1,20 +1,24 @@
 ---
 layout: default
-title: Introduction
+title: Data
 nav_order: 1
-description: "Briefings is focused on brief exploration, modelling, analysis, and features engineering exercises"
+description: "Learning from Data Beyond Financial Services"
 permalink: /
 ---
 
-# Introduction
+# Data
 {: .fs-9 }
 
-Third Reading
+Learning from Data Beyond Financial Services
 {: .fs-6 .fw-300 }
 
 <br>
 
-Each section explains/outlines a mini-project, mini-exploration.
+Data insights are critical within a wide range of sectors including the cybersecurity, healthcare & medicine, energy, and various areas of the public and third sectors.
+
+<br>
+
+
 
 <br>
 <br>
