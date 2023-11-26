@@ -32,7 +32,7 @@ Data insights are critical within a wide range of sectors including the cybersec
 <figure>
   <iframe src="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/data.html" style="width:100%;height:500px;padding:15;fill:true;border:none;">
   </iframe>
-  <figcaption><b>Preview.</b>  Source: <a href="https://github.com/thirdreading/thirdreading.github.io/blob/master/assets/docs/field_guide_to_data_science.pdf" target="_blank">The Field Guide to Data Science</a></figcaption>
+  <figcaption><b>Preview.</b>  Source: <a href="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/docs/field_guide_to_data_science.pdf" target="_blank">The Field Guide to Data Science</a></figcaption>
 </figure>
 
 
