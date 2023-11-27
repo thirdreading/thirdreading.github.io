@@ -5,18 +5,45 @@
 
 .. image:: _static/logo.svg
 
+
 Third Reading
 =============
 
+
+.. container:: .large
+
+   Learning from data ...
+
+
+.. container:: .buttons
+
+   `About Data <data/data.html>`_
+   :ref:`genindex`
+
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Data:
+   :hidden:
+
+   data/data
+
+
+.. raw:: html
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <br>
+  <br>
+  <br>
+  <br>
 
 
 
-Indices and tables
-==================
+..
+   Comment
+   :ref:`genindex`
+   :ref:`search`
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
