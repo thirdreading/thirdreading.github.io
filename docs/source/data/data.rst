@@ -14,15 +14,9 @@ Data insights are critical within a wide range of sectors including the cybersec
 
 .. raw:: html
 
-  <br>
-  <br>
-
-  <ul>
-    <li>Are in search of similar insights or intelligence, e.g., cybersecurity intelligence that continuously outlines the resilience of their computer & software systems to attack.</li>
+  <ul><li>Are in search of similar insights or intelligence, e.g., cybersecurity intelligence that continuously outlines the resilience of their computer and software systems to attack.</li>
     <li>Develop models, e.g., models that aid product or service improvement aims, that depend on data sets that might have similarities with the data sets that a financial firm might use to inform investment options.</li>
-    <li>Might use similar artificial intelligence/data science/machine learning techniques, and techniques from the areas of signal processing, management science, etc., to learn from data.</li>
-  </ul>
-
+    <li>Might use similar artificial intelligence/data science/machine learning techniques, and techniques from the areas of signal processing, management science, etc., to learn from data.</li></ul>
 
 
 .. raw:: html
