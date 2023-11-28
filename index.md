@@ -37,12 +37,11 @@ Data insights are critical within a wide range of sectors including the cybersec
 
 <br>
 
-We use data to develop diagnostic, prognostic, forecasting/predictive, detecion, etc., models:
+We use data to develop diagnostic, prognostic, forecasting/predictive, detection, etc., models in areas such as:
 
 <ul>
     <li>Health & Medicine</li>
-    <li>Space Weather <a href="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/images/space_weather.jpg" target="_blank">Space Weather</a></li>
-    <li>Every day finances.</li>
+    <li><a href="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/images/space_weather.jpg" target="_blank">Space Weather</a></li>
     <li>Energy</li>
     <li><a href="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/images/water_pollution.jpg" target="_blank">Understanding</a> and addressing <a href="./assets/images/solutions_addressing_or_preventing_environmental_damage.jpg" target="_blank">pollution</a>.</li>
     <li>Identifying, understanding, and addressing pockets of <a href="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/images/poverty.jpg" target="_blank">poverty</a>.</li>
