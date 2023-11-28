@@ -37,13 +37,13 @@ Data insights are critical within a wide range of sectors including the cybersec
 
 <br>
 
-We use data to develop diagnostic, prognostic, forecasting/predictive, detection, etc., models in areas such as:
+We use data to (a) monitor events, (b) discern patterns or relationships, (c) develop diagnostic, detection, prognostic/forecasting/predictive, etc., models, and (d) do much more, in areas such as:
 
 <ul>
-    <li>Health & Medicine</li>
-    <li><a href="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/images/space_weather.jpg" target="_blank">Space Weather</a></li>
-    <li>Energy</li>
-    <li><a href="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/images/water_pollution.jpg" target="_blank">Understanding</a> and addressing <a href="./assets/images/solutions_addressing_or_preventing_environmental_damage.jpg" target="_blank">pollution</a>.</li>
+    <li>Health & Medicine: Continuous forecasting of the likelihood of <i>intensive care unit medical events</i> in a patient.</li>
+    <li><a href="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/images/space_weather.jpg" target="_blank">Space Weather</a>: Forecasting geomagnetic storms.</li>
+    <li>Energy: Forecasting energy demand.</li>
+    <li><a href="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/images/water_pollution.jpg" target="_blank">Understanding</a> and addressing <a href="./assets/images/solutions_addressing_or_preventing_environmental_damage.jpg" target="_blank">pollution</a>.  For example, understanding river pollution in England.</li>
     <li>Identifying, understanding, and addressing pockets of <a href="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/images/poverty.jpg" target="_blank">poverty</a>.</li>
 </ul>
 
