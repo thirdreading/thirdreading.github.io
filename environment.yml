@@ -1,4 +1,4 @@
-name: transcribing
+name: thirdreading
 channels:
   - conda-forge
 dependencies:
