@@ -11,7 +11,7 @@ permalink: /src/graphs
 An example
 {: .fs-6 .fw-300 }
 
-<figure>
+<figure style="margin-bottom:5px">
   <iframe src="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/points.html" 
 style="width:125%;height:500px;border:none;">
   </iframe>
