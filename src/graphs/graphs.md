@@ -11,7 +11,7 @@ permalink: /src/graphs
 An example
 {: .fs-6 .fw-300 }
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thirdreading.github.io/notebooks/graphs.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thirdreading/thirdreading.github.io/blob/master/notebooks/graphs.ipynb)
 
 <figure style="margin-bottom:5px;margin-right:5px;max-height:405px">
   <iframe src="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/points.html" 
