@@ -12,7 +12,7 @@ An example
 {: .fs-6 .fw-300 }
 
 <figure>
-  <iframe src="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/points.html" style="padding:15;fill:true;border:none;">
+  <iframe src="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/points.html" style="padding:1;fill:true;border:none;">
   </iframe>
   <figcaption>A Plotly Graph</figcaption>
 </figure>
