@@ -13,7 +13,7 @@ An example
 
 <figure style="margin-bottom:5px;max-height:525px">
   <iframe src="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/points.html" 
-style="width:135%;height:500px;border:none;">
+style="width:135%;height:300px;border:none;">
   </iframe>
   <figcaption>A Plotly Graph</figcaption>
 </figure>
