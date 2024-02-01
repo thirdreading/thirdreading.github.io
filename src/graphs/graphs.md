@@ -15,7 +15,7 @@ An example
 
 <figure style="margin-bottom:5px;margin-right:5px;max-height:405px">
   <iframe src="https://nbviewer.org/github/thirdreading/thirdreading.github.io/blob/master/assets/points.html" 
-style="width:125%;height:400px;border:none;">
+style="width:105%;height:400px;border:none;">
   </iframe>
   <figcaption>A Plotly Graph</figcaption>
 </figure>
